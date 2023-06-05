@@ -5,15 +5,6 @@ import * as Yup from 'yup';
 // components
 import { Login, SignUp, ToggleSwitch } from '../components';
 
-// icons
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
-import {
-  faFacebookF,
-  faTwitter,
-  faGoogle,
-} from '@fortawesome/free-brands-svg-icons';
-
 const Form = () => {
   const [isLogin, setIsLogin] = useState(true);
 
