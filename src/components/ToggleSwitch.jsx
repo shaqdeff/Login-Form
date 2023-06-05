@@ -11,7 +11,7 @@ const ToggleSwitch = ({ setIsLogin, isLogin }) => {
       x: 0,
     },
     signUp: {
-      x: '10%',
+      x: '8%',
     },
   };
 
