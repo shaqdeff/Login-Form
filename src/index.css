@@ -3,3 +3,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.form-container {
+  background: linear-gradient(
+      139deg,
+      rgba(240, 194, 174, 0.6) 100%,
+      rgba(145, 145, 145, 1) 100%
+    ),
+    url('/src/assets/images/bg.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
