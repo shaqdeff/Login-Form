@@ -42,7 +42,7 @@ const SignUp = () => {
   return (
     <form
       onSubmit={formik.handleSubmit}
-      className="w-full flex flex-col gap-10 px-16">
+      className="w-full flex flex-col gap-6 px-16">
       <div className="">
         <div className="relative">
           <input
@@ -136,13 +136,15 @@ const SignUp = () => {
         </div>
 
         {formik.touched.confirmPassword && formik.errors.confirmPassword ? (
-          <div className="text-melon text-[14px] tracking-[0.5px] font-poppins mt-2">
+          <div
+            className="text-melon text-[14px] 
+          tracking-[0.5px] font-poppins mt-2">
             {formik.errors.confirmPassword}
           </div>
         ) : null}
       </div>
 
-      <div className="w-full flex justify-center mt-4 mb-3">
+      <div className="w-full flex justify-center mt-2 mb-2">
         <button
           type="submit"
           className="py-3 px-4 bg-peach text-melon
@@ -152,26 +154,37 @@ const SignUp = () => {
         </button>
       </div>
 
-      <p className="text-center text-gray text-[14px] font-normal font-poppins">
+      <p
+        className="text-center text-gray text-[14px] 
+      font-normal font-poppins">
         OR
       </p>
 
       <div className="flex justify-center gap-14 mb-10">
-        <div className="rounded-full w-[4.5rem] h-[4.5rem] flex justify-center items-center bg-[#fff] border border-gray p-2">
+        <div
+          className="rounded-full w-[4.5rem] h-[4.5rem] flex 
+        justify-center items-center bg-[#fff]
+        border border-gray p-2">
           <FontAwesomeIcon
             icon={faFacebookF}
             color="#FC596D"
             className="text-[38px]"
           />
         </div>
-        <div className="rounded-full w-[4.5rem] h-[4.5rem] flex justify-center items-center bg-[#fff] border border-gray p-2">
+        <div
+          className="rounded-full w-[4.5rem] h-[4.5rem] flex 
+        justify-center items-center bg-[#fff]
+        border border-gray p-2">
           <FontAwesomeIcon
             icon={faTwitter}
             color="#FC596D"
             className="text-[38px]"
           />
         </div>
-        <div className="rounded-full w-[4.5rem] h-[4.5rem] flex justify-center items-center bg-[#fff] border border-gray p-2">
+        <div
+          className="rounded-full w-[4.5rem] h-[4.5rem] flex 
+        justify-center items-center bg-[#fff]
+        border border-gray p-2">
           <FontAwesomeIcon
             icon={faGoogle}
             color="#FC596D"

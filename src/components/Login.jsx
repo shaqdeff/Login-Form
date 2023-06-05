@@ -99,7 +99,7 @@ const Login = () => {
         </div>
       </div>
 
-      <div className="w-full flex justify-center mt-4 mb-3">
+      <div className="w-full flex justify-center mt-3">
         <button
           type="submit"
           className="py-3 px-4 bg-peach text-melon
