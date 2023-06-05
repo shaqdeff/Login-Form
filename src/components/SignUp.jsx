@@ -3,7 +3,6 @@ import * as Yup from 'yup';
 
 // icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebookF,
   faTwitter,
