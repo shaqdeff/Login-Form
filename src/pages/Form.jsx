@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import { useFormik } from 'formik';
-import * as Yup from 'yup';
 
 // components
 import { Login, SignUp, ToggleSwitch } from '../components';
