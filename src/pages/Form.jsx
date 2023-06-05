@@ -24,7 +24,13 @@ const Form = () => {
 
   return (
     <div className="h-screen w-screen flex justify-center items-center">
-      <div className="m-auto border rounded-[30px] flex flex-col justify-center gap-10 items-center w-[35%] relative">
+      <div
+        className="form-container absolute 
+        w-full h-full top-0 -z-10"></div>
+
+      <div
+        className="m-auto border-[#fff] rounded-[30px] flex flex-col 
+      justify-center gap-10 items-center w-[35%] relative bg-[#fff]">
         <div className="mt-8">
           <ToggleSwitch setIsLogin={setIsLogin} isLogin={isLogin} />
         </div>
