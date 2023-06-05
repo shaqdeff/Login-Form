@@ -26,7 +26,8 @@ const ToggleSwitch = ({ setIsLogin, isLogin }) => {
           isLogin
             ? 'bg-peach text-melon rounded-[30px]'
             : 'bg-melon text-white rounded-[30px]'
-        } font-normal font-poppins py-2.5 px-4 w-[160px]`}
+        } font-normal font-poppins py-2.5 px-4 
+        w-[160px] outline-none`}
         onClick={handleToggle}
         animate={isLogin ? 'login' : 'signUp'}
         initial={isLogin ? 'login' : 'signUp'}
@@ -39,7 +40,7 @@ const ToggleSwitch = ({ setIsLogin, isLogin }) => {
         className={`${
           !isLogin ? 'bg-peach text-melon' : 'bg-melon text-white'
         } font-normal font-poppins py-2.5 px-4 
-        rounded-[30px] w-[160px]`}
+        rounded-[30px] w-[160px] outline-none`}
         onClick={handleToggle}
         animate={isLogin ? 'signUp' : 'login'}
         initial={isLogin ? 'signUp' : 'login'}

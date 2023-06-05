@@ -149,7 +149,8 @@ const SignUp = () => {
           type="submit"
           className="py-3 px-4 bg-peach text-melon
               w-[230px] rounded-[30px] hover:bg-melon
-              hover:text-white text-[16px]">
+              hover:text-white text-[16px]
+              transition-colors duration-300 ease-in-out">
           Sign Up
         </button>
       </div>
@@ -161,36 +162,56 @@ const SignUp = () => {
       </p>
 
       <div className="flex justify-center gap-14 mb-10">
-        <div
-          className="rounded-full w-[4.5rem] h-[4.5rem] flex 
-        justify-center items-center bg-[#fff]
-        border border-gray p-2">
+        {/* Facebook */}
+        <button
+          className="rounded-full w-[4.5rem] h-[4.5rem] 
+            flex justify-center items-center
+            bg-[#fff] border border-gray p-2
+            hover:bg-melon hover:text-white 
+            hover:border-white hover:border-2 
+            text-[16px] transition-colors 
+            duration-300 ease-in-out">
           <FontAwesomeIcon
             icon={faFacebookF}
             color="#FC596D"
-            className="text-[38px]"
+            className="text-[38px] w-full hover:text-white 
+            transition-colors duration-300 ease-in-out"
           />
-        </div>
-        <div
-          className="rounded-full w-[4.5rem] h-[4.5rem] flex 
-        justify-center items-center bg-[#fff]
-        border border-gray p-2">
+        </button>
+
+        {/* Twitter */}
+        <button
+          className="rounded-full w-[4.5rem] h-[4.5rem] 
+            flex justify-center items-center
+            bg-[#fff] border border-gray p-2
+            hover:bg-melon hover:text-white 
+            hover:border-white hover:border-2 
+            text-[16px] transition-colors 
+            duration-300 ease-in-out">
           <FontAwesomeIcon
             icon={faTwitter}
             color="#FC596D"
-            className="text-[38px]"
+            className="text-[38px] w-full hover:text-white 
+            transition-colors duration-300 ease-in-out"
           />
-        </div>
-        <div
-          className="rounded-full w-[4.5rem] h-[4.5rem] flex 
-        justify-center items-center bg-[#fff]
-        border border-gray p-2">
+        </button>
+
+        {/* Google */}
+        <button
+          className="rounded-full w-[4.5rem] h-[4.5rem] 
+            flex justify-center items-center
+            bg-[#fff] border border-gray p-2
+            hover:bg-melon hover:text-white 
+            hover:border-white hover:border-2 
+            text-[16px] transition-colors 
+            duration-300 ease-in-out">
           <FontAwesomeIcon
             icon={faGoogle}
             color="#FC596D"
-            className="text-[38px]"
+            className="text-[38px] w-full hover:text-white 
+            transition-colors duration-300 ease-in-out"
           />
-        </div>
+        </button>
       </div>
     </form>
   );
