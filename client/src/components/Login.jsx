@@ -28,7 +28,7 @@ const Login = () => {
         ),
     }),
     onSubmit: (values) => {
-      console.log(values); 
+      console.log(values);
     },
   });
 
@@ -111,7 +111,7 @@ const Login = () => {
       </div>
 
       <p
-        className="text-center text-gray text-[14px]
+        className="text-center text-gray text-[13px]
           font-normal font-poppins">
         OR
       </p>
